@@ -20,7 +20,8 @@ import javax.servlet.Filter;
 public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private com.codewithpp.springsecurityjwt.services.myUserDetailsService myUserDetailsService;
+    private com.codewithpp.springsecurityjwt.services.MyUserDetailsService myUserDetailsService;
+
 
     @Autowired
     private JwtFilter jwtFilter ;
